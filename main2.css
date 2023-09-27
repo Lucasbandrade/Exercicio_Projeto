@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3,
+form div button,
+footer {
+    font-family: 'Bungee Hairline', cursive;
+    font-weight: bolder;
+}
+
+body, form div input, form div textarea {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+header {
+    padding: 16px 0;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section img {
+    height: 400px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 8px;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;   
+}
+
+.article p {
+    padding: 18px;
+    color: black;
+}
+
+#arms h2,
+#vehicle h2,
+#viloes h2 {
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    padding: 16px 0;
+}
+
+#arms p,
+#vehicle p,
+#viloes p {
+    font-size: 55px;
+}
+
+#contact .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;  
+}
+
+.contact-methods {
+    display: flex;
+    align-items: center;
+    text-align: center;  
+}
+
+form div input,
+form div textarea,
+form div button {
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form div textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+form div button {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form div button:hover {
+    background-color: rgb(87, 87, 87);
+}
+
+input:focus, textarea:focus {
+    outline-color: rgb(0, 0, 0);
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 16px 0;
+}
+
